@@ -1,22 +1,23 @@
 {
-  "name": "chess.com",
+  "name": "chess-backend",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/asynchronousJavascriptor/instaclone.git"
+    "url": "https://github.com/jash-kapoor/backend-chess-.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/asynchronousJavascriptor/instaclone/issues"
+    "url": "https://github.com/jash-kapoor/backend-chess-/issues"
   },
-  "homepage": "https://github.com/asynchronousJavascriptor/instaclone#readme",
-  "description": "",
+  "homepage": "https://github.com/jash-kapoor/backend-chess-#readme",
+  "description": "A backend for a real-time chess game using Socket.IO",
   "dependencies": {
     "chess.js": "^1.4.0",
     "ejs": "^3.1.10",
