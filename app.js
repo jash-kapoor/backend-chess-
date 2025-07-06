@@ -12,7 +12,7 @@ const chess = new Chess();
 let players = {};
 
 app.set("view engine", "ejs");
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "Public")));
 
 app.get("/", (req, res) => {
     res.render("index", { title: "Chess Game" });
